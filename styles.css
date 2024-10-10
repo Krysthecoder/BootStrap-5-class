@@ -1,0 +1,46 @@
+.cards-min-height{
+  height: 100%;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-custom{
+  height: 500px;
+  object-fit: cover;
+}
+
+.bg-custom{
+  background-color: #dddddd;
+}
+
+.btn-custom{
+  width: 100px;
+}
+
+.btn-active-bg-color{
+  background-color: #ff6b00;
+  color: white;
+}
+
+.btn-active-bg-color:hover{
+  background-color: #6b9d26;
+  color: white;
+}
+
+.img-container{
+  width: 100%;
+  min-width: 300px;
+  overflow: hidden;
+}
+
+.featured-tours-thumbnail{
+  width: 100%;
+  min-width: 300px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.featured-tours-thumbnail:hover{
+  object-fit: cover;
+  transform: scale(1.15);
+}
