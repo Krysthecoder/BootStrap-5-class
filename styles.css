@@ -44,3 +44,11 @@
   object-fit: cover;
   transform: scale(1.15);
 }
+.featured-tour-icons{
+  width: 1.2rem;
+}
+#video-yt{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
